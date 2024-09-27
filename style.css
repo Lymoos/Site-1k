@@ -1,0 +1,92 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+
+
+
+.body{
+    margin: 0; /* Убирает любые внешние отступы у body */
+    padding: 0; /* Убирает внутренние отступы у body */
+}
+.container{
+    position: relative;
+}
+.header{
+    background-image: url("/images/image_2024-09-23_23-23-52.png");
+    background-size: cover;
+    height: 500px;
+    overflow: hidden
+}
+.shop{
+    margin-top: 5px;
+}
+.shop_title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.shop_grid{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shop_product{
+    background-color: black;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+    width: 30%; /* Каждому товару будет выделено 30% ширины родительского контейнера */
+    box-sizing: border-box; /* Учитывает padding при расчёте ширины */
+    margin-bottom: 20px; /* Отступы между товарами */
+}
+.product_image{
+    width: 100%; /* Картинка товара растягивается по ширине блока */
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.product_title{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: wheat;
+}
+.product_button {
+    background-color: #009688;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 2px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer{
+    position: absolute;
+    background-color: #000034;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #9ac1ff;
+}
+
+.footer_text{
+    margin: 10px 0px 10px 0px;
+}
