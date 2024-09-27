@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     position: relative;
 }
 .header{
-    background-image: url("/images/header.png");
+    background-image: url("images/header.png");
     background-size: cover;
     height: 500px;
     overflow: hidden
